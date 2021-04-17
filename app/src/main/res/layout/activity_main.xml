@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101012"
+    android:padding="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity">
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/texttitle"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/ov"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="Please enter the details below"-->
+    <!--        android:textSize="24dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/name"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/texttitle"-->
+    <!--        android:hint="name"-->
+    <!--        android:textSize="24dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btninsert"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/name"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:text="Insert"-->
+    <!--        android:textSize="24dp" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="24dp"-->
+    <!--        android:text="View"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_below="@+id/btninsert"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btndel"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="24dp"-->
+    <!--        android:text="Delete"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_below="@+id/btnview"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnupd"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="24dp"-->
+    <!--        android:text="Update"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_below="@+id/btndel"/>-->
+
+    <Button
+        android:id="@+id/ov"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:minWidth="200sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:backgroundTint="#020900"
+        app:backgroundTintMode="add" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="423dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>
